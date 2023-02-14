@@ -1,7 +1,7 @@
 let sum = closureFunc(0);
 
 function closureFunc(a){
-    a = 0;
+//     a = 0;
     return function(b){
         return a = a + b
     }
